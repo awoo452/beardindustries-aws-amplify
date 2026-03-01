@@ -1,0 +1,154 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6;
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+nav .logo {
+  max-width: 300px;
+}
+
+nav .logo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+nav .all-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav .all-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav .all-nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s ease;
+}
+
+nav .all-nav ul li a:hover {
+  background-color: #f0f0f0;
+}
+
+.landing-cards {
+  padding: 2rem 1rem;
+}
+
+.landing-cards ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.landing-cards ul .landing-card {
+  background: #ffffff;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.landing-cards ul .landing-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.landing-cards ul .landing-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.contact-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.contact-container img {
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.contact-container h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.contact-container .contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.contact-container .contact-list li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.contact-container .contact-list a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.contact-container .contact-list a:hover {
+  text-decoration: underline;
+}
+
+.legal-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem 2rem;
+  line-height: 1.7;
+}
+
+.legal-page h1 {
+  margin-bottom: 1rem;
+}
+
+.legal-page h2 {
+  margin-top: 1.5rem;
+}
+
+footer {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  color: #333;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
